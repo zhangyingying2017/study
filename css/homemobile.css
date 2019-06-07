@@ -1,0 +1,81 @@
+.row-wrap-mobile{
+	margin-top: 0.5rem;
+}
+.rows{
+	display: -webkit-box;
+}
+.rows div{
+	width: 0px;
+	-webkit-box-flex: 1;
+	flex-grow: 1;
+}
+.rows div a{
+	font-size: 0.44rem;
+	color: #666;
+	text-align: center;
+	line-height: 1.04rem;
+	display: block;
+}
+.rows div a:before{
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 1.72rem;
+	height: 1.7rem;
+	background-size: 1.72rem 1.72rem;
+}
+.rows div:nth-of-type(1) a:before{
+	background-image:url(../img/xialunbo/ig.png);
+}
+.rows div:nth-of-type(2) a:before{
+	background-image:url(../img/xialunbo/ig2.png);
+}
+.rows div:nth-of-type(3) a:before{
+	background-image:url(../img/xialunbo/ig3.png);
+}
+.rows div:nth-of-type(4) a:before{
+	background-image:url(../img/xialunbo/ig4.png);
+}
+
+.rows:nth-of-type(2) div:nth-of-type(1) a:before{
+	background-image:url(../img/xialunbo/ig5.png);
+}
+.rows:nth-of-type(2) div:nth-of-type(2) a:before{
+	background-image:url(../img/xialunbo/ig6.png);
+}
+.rows:nth-of-type(2) div:nth-of-type(3) a:before{
+	background-image:url(../img/xialunbo/ig7.png);
+}
+.rows:nth-of-type(2) div:nth-of-type(4) a:before{
+	background-image:url(../img/xialunbo/ig8.png);
+}
+.font-h{
+	margin-left: 1rem;
+	font-size: 0.6rem;
+	font-weight: bold;
+}
+.font-h a{
+	float: right;
+	font-size: 0.4rem;
+	margin-right: 0.6rem;
+}
+.rows-sec{
+	display: -webkit-box;
+	margin: 0.3rem 0rem 0.3rem 1rem;
+}
+.rows-sec div{
+	width: 0px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+.rows-sec div a h3{
+	font-size: 0.44rem;
+    color: #666;
+    line-height: 1.04rem;
+}
+.rows-sec div a img{
+	width: 6rem;
+}
+.row-wrap-computer{
+	display: none;
+}

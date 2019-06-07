@@ -1,0 +1,173 @@
+body {
+  /* line-height:1;
+  font-size:13px;*/
+ 	margin: 0;
+ 	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	background: #eee;
+}
+
+p, .tab-content li, h1, h2, h3{ 
+    margin-bottom: 10px;
+}
+
+.tab-container h3{ /* Effects only the h3 headings inside the tabs */
+	/*font-size:147%;*/
+	color:#000;
+}
+#container{ /* Use this to position the entire tab module */
+	margin: 0 auto;	
+	margin-top: 4%;	
+}
+
+.tab-container {
+	position: relative; /* It's important to keep this position relative and the absolute positions in this file the same */
+	/*width: 100%;
+	z-index: 0;*/
+
+}
+
+.tab-container > div { 
+	
+}
+
+.tab-container > div > a {
+	position: relative !important; /* Keeps the tabs in line with each other */
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	font-size: 14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 1px;
+	padding: 20px 55px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 0px;
+	/*border-radius: 3px;*/
+	border-top: 1px solid #55b929;
+	border-bottom: 1px solid #55b929;
+	width:155px;
+	background-color: white;
+}
+
+.tab-container > div:not(:target) > a {
+}	
+
+.tab-container > div:target > a { 
+    background: none repeat scroll 0 0 #55b929;
+    color: #fff;
+}
+
+.tab-container > div > div { 
+	background: #fff;
+	z-index: -2;
+	top: 0;
+	padding: 20px;
+	outline-offset: -8px;
+	min-height: 800px; 
+	position: absolute; 
+	left: 180px;
+	width: 11.5rem;
+}
+
+.tab-container > div:not(:target) > div { 
+	position: absolute;
+}
+
+.tab-container > div:target > div { 
+	position: absolute; 
+	z-index: 3 !important; 
+}
+
+div.tab-content{
+	padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tab-content img{ 
+	margin:0 auto; 
+	display:block; 
+	padding-bottom: 20px;
+    padding-top: 10px;
+}
+#tabs-right { 
+    position: relative; 
+    padding-right: 6.5em; 
+}
+
+#tabs-right .ui-tabs-nav { 
+    position: absolute; 
+    right: 0.25em; 
+    top: 0.25em; 
+    bottom: 0.25em; 
+    width: 6em; 
+    padding: 0.2em 0.2em 0.2em 0em; 
+}
+
+#tabs-right .ui-tabs-nav li { 
+    width: 100%; 
+    border-left: none; 
+    border-bottom-width: 1px !important; 
+    -moz-border-radius: 0px 4px 4px 0px; 
+    -webkit-border-radius: 0px 4px 4px 0px; 
+    border-radius: 0px 4px 4px 0px; 
+    overflow: hidden; 
+} 
+
+#tabs-right .ui-tabs-nav li.ui-tabs-selected, 
+#tabs-right .ui-tabs-nav li.ui-state-active { 
+    left: -1px; 
+    border-left: 1px solid transparent; 
+} 
+#tabs-right .ui-tabs-nav li a { 
+    width: 100%; 
+} 
+.tab-container{
+	margin-top: 70px;
+	
+}
+
+@media screen and (max-width:900px){
+	.tab-container > div > a {
+		
+		padding: 10px 16px;
+		font-size: 12px;
+		width:70px;
+	}
+	.tab-container > div > div { 
+		left: 93px;
+	}
+
+
+}
+@media screen and (min-width:900px){
+	.learnmes button{
+		margin-left: 200px;
+	}
+
+
+}
+.learnmes button{
+	background-color: #FF6C00;
+}
+.learnm h3{
+	padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.learnm p{
+	font-size: 16px;
+	line-height: 24px;
+}
+.panel-heading{
+	  background-color: #d2eff7 !important;
+    border-color: #d2eff7 !important;
+}
+.learnm caption{
+	font-weight: bold;
+	color: #55B929 !important;
+}
+.learnt tr{
+	background-color: #f8f8f8;
+
+}

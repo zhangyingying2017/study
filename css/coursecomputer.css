@@ -1,0 +1,141 @@
+body{
+	background-color: #eee;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+#courseMid{
+	margin-top: 50px;
+	padding: 8px 0.8rem;
+	background-color: white;
+	margin-bottom: 40px;
+}
+.courseMidUl{
+	display: flex;
+	
+}
+.courseMidUl li a{
+	font-size: 0.16rem;
+	color: black;
+}
+.xieg{
+	margin: 0px 6px;
+}
+.courseMidvideo{
+	display: flex;
+}
+.courseMidvideor{
+	margin-left: 24px;
+	width: 6.7rem;
+}
+.courseMidvideor dl{
+	padding: 5px 10px 15px 20px;
+    margin-bottom: 30px;
+    background-color: #f5f5f5;
+}
+.courseMidvideor dl dd{
+	font-size: 14px;
+    color: #333333;
+    padding: 10px 0 10px 0;
+}
+.courseMidvideor p{
+	margin-bottom: 10px;
+	font-size: 13px;
+    color: #999999;
+}
+.courseMidvideor button{
+	width: 169px;
+    height: 50px;
+}
+@media screen and (max-width:800px){
+	#video{
+	    width:14rem;	
+	}
+	.courseMidvideor{
+		display: none;
+	}
+	.coursebotL{
+		width:14.4rem;
+		background-color: #fff;
+		height: 1000px;
+	
+	}
+	#buttomBar{
+		display: none;
+	}
+	.coursebotr{
+		display: none;
+	}
+}
+
+@media screen and (min-width:800px) and (max-width:1200px){
+	#video{
+	    width:8rem;	
+	}
+	.coursebotL{
+		width:10rem;
+		background-color: #fff;
+		height: 1000px;
+	}
+	.coursebotr{
+		margin-left: 0.2rem;
+		width:4.2rem;
+		height: 1000px;
+	}
+	#buttomBar{
+		display: none;
+	}
+}
+@media screen and (min-width:1200px){
+		#video{
+	    width:8rem;	
+	}
+	.coursebotL{
+		width:10rem;
+		background-color: #fff;
+		height: 1000px;
+	}
+	.coursebotr{
+		margin-left: 0.2rem;
+		width:4.2rem;
+		height: 1000px;
+	}
+}
+#coursebot{
+	height: 1000px;
+	margin: 0px 0.8rem;
+	display: flex;
+}
+#home{
+    padding: 10px 0px 20px;
+    margin-bottom: 48px;
+    
+}
+#home .hui{
+	background-color: #F5F8F4;
+	padding: 30px 30px 20px;
+}
+#home p{
+	color: #333333;
+}
+.coursebotL{
+	padding:30px;
+}
+#myTabContent{
+	margin-top: 20px;
+}
+#home h4{
+	font-weight: bold;
+}
+
+.coursebotr .asider{
+	padding: 0 15px 14px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.asider img{
+	 width: 3.76rem;
+}

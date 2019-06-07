@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>课件</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link href="../css/login.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/learncourse.css">
+<link rel="stylesheet" href="../css/talk_detail.css">
+<link rel="stylesheet" href="../css/kejianV.css">
+
+<style>
+	.kejianul li.active{
+		cursor: default;
+	    color: #fff;
+	    background-color: #60B900 !important;
+	}
+</style>
+<script>
+	(function(){
+		var html = document.documentElement;
+		var hWidth = html.getBoundingClientRect().width;
+		html.style.fontSize = hWidth/16 +"px";
+	})()
+</script>
+</head>
+
+<body>
+	<div id="navigationBar"></div>
+	
+	<div class="tab-container container">
+	<div id="c1">
+		  <a href="learncourse.html#c1" title="公告">公告</a> 
+			<div class="tab-content learnm"> 
+				<div class="learnmes">
+					<span>亲爱的狮子座mooc6，欢迎回来～</span>
+					<a href="kejian.html#c2" type="button" class="btn btn-warning">继续学习</a>
+				</div>
+	            <h3>公告</h3>
+	            <p>通过一个学期的学习，祝贺部分同学已经获得中国大学MOOC课程《数据结构》的合格证书和优秀证书！
+请这些同学在爱课程网站申请本课程的证书！</p>
+      		</div>
+	</div>
+	<div id="c2">
+		<a href="learncourse.html#c2" title="课件">课件</a> 
+		<div class="tab-content learnm">
+			<span>课件</span><span class="glyphicon glyphicon-menu-right"></span>
+           	<form action="" style="display: inline;" method="post">
+				<select id="zhang" onchange="mychange()">
+					<option value="1">第1周：绪论（时长：56分11秒）</option>
+					<option value="2">第2周：线性表（上）（时长:1小时3分56秒）</option>
+					<option value="3">第3周：线性表（下）（时长：41分40秒）</option>
+				</select>
+				<span class="glyphicon glyphicon-menu-right"></span>
+				<select id="jie">
+					<option>请选择</option>
+				</select>
+			</form>
+			
+			<ul id="myTab" class="nav nav-tabs kejianul">
+				<li class="active">
+					<a href="#home" data-toggle="tab">
+						<span class="glyphicon glyphicon-play-circle"></span>
+					</a>
+				</li>
+				<li><a href="#ios" data-toggle="tab">
+					<span class="glyphicon glyphicon-list-alt"></span>
+				</a></li>
+			</ul>
+			<div id="myTabContent" class="tab-content kejianvideo">
+				<div class="tab-pane fade in active" id="home">
+					<video id="video" controls="controls">
+						<source src="../video/3. HTML5Canvas标签-绘制图片.mp4">
+						<source src="../img/ig.png"> 您的浏览器不支持
+					</video>
+				</div>
+				<div class="tab-pane fade" id="ios">
+					<object classid="clsid:CA8A9780-280D-11CF-A24D-444553540000" width="100%" height="520px" border="0">  
+					    <param name="_Version" value="65539">  
+					    <param name="_ExtentX" value="20108">  
+					    <param name="_ExtentY" value="10866">  
+					    <param name="_StockProps" value="0">  
+					    <param name="SRC" value="pdf/test.pdf">  
+					    <object data="../pdf/test.pdf" type="application/pdf" width="100%" height="520px">   
+					    </object>  
+					</object> 
+					<button type="button" class="btn btn-warning">文档下载</button>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+	<div id="c3">
+		<a href="learncourse.html#c3" title="考试">考试</a> 
+			<div class="tab-content learnm learnt">
+            <h3>第1周测验</h3>
+            <form action="" method="get"> 
+	             <table class="table table-hover">
+					<caption>1单选(2分)计算机所处理的数据一般具备某种内在联系，这是指（ ）。</caption>
+					<tbody>
+						<tr>
+							<td><label><input checked="checked" name="data" type="radio" value="1" />A.数据和数据之间存在某种关系 </label> </td>
+						</tr>
+						<tr>
+							<td><label><input checked="checked" name="data" type="radio" value="1" />B.
+元素和元素之间存在某种关系</label> </td>
+						</tr>
+						<tr>
+							<td><label><input checked="checked" name="data" type="radio" value="1" />C.
+元素内部具有某种结构 </label> </td>
+						</tr>
+						<tr>
+							<td><label><input checked="checked" name="data" type="radio" value="1" />D.
+数据项和数据项之间存在某种关系</label> </td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<table class="table table-hover">
+					<caption>2单选(2分)计算机所处理的数据一般具备某种内在联系，这是指（ ）。</caption>
+					<tbody>
+						<tr>
+							<td><label><input checked="checked" name="data" type="radio" value="1" />A.数据和数据之间存在某种关系 </label> </td>
+						</tr>
+						<tr>
+							<td><label><input checked="checked" name="data" type="radio" value="1" />B.
+元素和元素之间存在某种关系</label> </td>
+						</tr>
+						<tr>
+							<td><label><input checked="checked" name="data" type="radio" value="1" />C.
+元素内部具有某种结构 </label> </td>
+						</tr>
+						<tr>
+							<td><label><input checked="checked" name="data" type="radio" value="1" />D.
+数据项和数据项之间存在某种关系</label> </td>
+						</tr>
+					</tbody>
+				</table>
+			</form> 
+			<button type="button" class="btn btn-warning">提交答案</button>
+      </div>
+	</div>
+	<div id="c4">
+		<a href="learncourse.html#c4" title="讨论区">讨论区</a>
+			<div class="tab-content learnm">
+            	<h3>讨论区</h3>
+            	<div class="talk_detail">
+            		<h4>顺序表的插入和删除算法怎么写？</h4>
+            		<span>大体框架能写出来，但是对于那个元素赋值，元素移动这个地方有点模糊，有会的同学吗？希望可以给我解答！万分感谢！！！</span>
+            	</div>
+            	<textarea rows="10" cols="100">在w3school，你可以找到你所需要的所有的网站建设教程。</textarea><br />
+            	<button type="button" class="btn btn-warning">发表回答</button>
+			</div>
+	</div>
+
+	
+	</div>
+	
+	
+</body>
+<script type="text/javascript">
+		var cityList = new Array();
+		cityList['1'] = ['第1讲数据结构总览', '东城区', '西城区', '海淀区', '宣武区', '丰台区', '怀柔', '延庆', '房山'];
+		cityList['2'] = ['第1讲数据结构总览', '长宁区', '丰贤区', '虹口区', '黄浦区', '青浦区', '南汇区', '徐汇区', '卢湾区'];
+		cityList['3'] = ['第1讲数据结构总览', '惠州市', '汕头市', '珠海市', '佛山市', '中山市', '东莞市'];
+
+		function mychange() {
+			var cheng = document.getElementById("zhang");
+			var city=document.getElementById("jie");
+			city.options.length=0;
+			for(var i in cityList){
+				if(i==cheng.value){
+					for(var j in cityList[i]){
+						city.add(new Option(cityList[i][j],cityList[i][j]));
+					}
+				}
+			}
+		}
+	</script>
+<script src="../js/jquery-1.11.1.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/common.js"></script>
+</html>

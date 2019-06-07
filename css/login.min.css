@@ -1,0 +1,140 @@
+/*清除移动端默认样式*/
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input,
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+body {
+  margin: 0;
+  -webkit-user-select: none;
+}
+body * {
+  -webkit-user-select: none;
+  font-family: helvetica;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+}
+h1 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/*--------------------------------------------登陆------------------------------*/
+body.signin{
+	height:auto;
+	background:url(../img/login-background.jpg) no-repeat center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	color:rgba(255,255,255,.95);
+}
+
+.signinpanel{
+	width:62%;
+	margin:10% auto 0;
+}
+
+.signinpanel .form-control{display:block;margin-top:15px}
+.signinpanel .uname{background:#fff url(../img/user.png) no-repeat 95% center;color:#333}
+.signinpanel .pword{background:#fff url(../img/locked.png) no-repeat 95% center;color:#333}
+
+.signinpanel .btn{
+	margin-top:15px;
+}
+
+.signinpanel form{
+	background:rgba(255,255,255,.2);
+	border:1px solid rgba(255,255,255,.3);
+	-moz-box-shadow:0 3px 0 rgba(12,12,12,.03);
+	-webkit-box-shadow:0 3px 0 rgba(12,12,12,.03);
+	box-shadow:0 3px 0 rgba(12,12,12,.03);
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;padding:30px;
+}
+
+.signup-footer{
+	border-top:solid 1px rgba(255,255,255,.3);
+	margin:20px 0;
+	padding-top:15px;
+}
+
+.cen_footer{ 
+	text-align: center;
+}
+
+.log_img{width: 80%;}
+
+@media screen and (max-width:768px){
+	.signinpanel{width:80%;}
+}
+
+@media screen and (max-width:600px){
+	.signinpanel{
+		width:90%;
+	}
+	.index_left{
+		display: none;
+	}
+}
+
+.m-b{
+	margin-bottom: 5px;
+}
+/*--------------------------------------------登陆------------------------------*/
+/*--------------------------------------------首页------------------------------*/
+
+.navbar-header img {
+    width: 1.3rem;
+    margin-top: -0.14rem;
+}
+.home_item img{
+	width: 16rem;
+}
+.home_item{
+	height: 5rem;
+}
+@media screen and (max-width:600px){
+	.headere ul{
+		display: none;
+	}
+	.form-search{
+		width: 8rem;
+	    position: absolute;
+	    top: -12px;
+	    right: 1rem;
+	}
+	.navbar-header img {
+    	width: 2.8rem;
+    	margin-top: -0.2rem;
+	}
+}
+@media screen and (min-width:600px) and (max-width:900px){
+	.headere ul{
+		display: none;
+	}
+	.form-search{
+	    position: absolute;
+	    right: 1rem;
+	}
+	.navbar-header img {
+    	width: 1.8rem;
+    	margin-top: -0.2rem;
+	}
+}
+
+
+
+
+
+/*--------------------------------------------首页------------------------------*/
+

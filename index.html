@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>登录</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/font-awesome.min.css?v=4.4.0" rel="stylesheet">-->
+    <!--<link href="css/animate.min.css" rel="stylesheet">-->
+    <!--<link href="css/style.min.css" rel="stylesheet">-->
+    <link href="css/login.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo_et_new.png">
+    
+    <script src="js/jquery-1.11.1.js"></script>
+	<script src="js/bootstrap.js"></script>
+    <!--[if lt IE 8]>
+    <meta http-equiv="refresh" content="0;ie.html" />
+    <![endif]-->
+    <script>
+        if(window.top!==window.self){window.top.location=window.location};
+    </script>
+
+</head>
+
+<body class="signin">
+    <div class="signinpanel">
+        <div class="row">
+            <div class="col-sm-7 index_left">
+                <div class="signin-info">
+                    <div class="logopanel m-b">
+                        <h1>[ 微课  ]</h1>
+                    </div>
+                    <div class="m-b"></div>
+                    <img class="log_img" src="img/log.png" />
+                    <h4><strong>还没有账号？ <a href="#">立即注册&raquo;</a></strong></h4>
+                </div>
+            </div>
+            <div class="col-sm-5">
+            	
+            	<ul id="myTab" class="nav nav-tabs">
+					<li class="active">
+						<a href="#student" data-toggle="tab">学生</a>
+					</li>
+					<li><a href="#teacher" data-toggle="tab">老师</a></li>
+				</ul>
+		
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade in active" id="student">
+						<form method="post" action="homepage.html">
+		                    <h4 class="no-margins">登录：</h4>
+		                    <input type="text" class="form-control uname" placeholder="用户名" />
+		                    <input type="password" class="form-control pword m-b" placeholder="密码" />
+		                    <a href="">忘记密码了？</a>
+		                    <button class="btn btn-success btn-block">登录</button>
+		                </form>
+					</div>
+					<div class="tab-pane fade" id="teacher">
+						<form method="post" action="homepage.html">
+		                    <h4 class="no-margins">登录：</h4>
+		                    <input type="text" class="form-control uname" placeholder="用户名" />
+		                    <input type="password" class="form-control pword m-b" placeholder="密码" />
+		                    <a href="">忘记密码了？</a>
+		                    <button class="btn btn-success btn-block">登录</button>
+		                </form>
+					</div>
+				</div>
+            	
+            </div>
+        </div>
+        <div class="signup-footer">
+            <div class="cen_footer">
+                &copy; 郑州轻工业大学
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
